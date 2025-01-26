@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6BECAE2D19F55A005AA4CB /* CalculateProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BECAD2D19F55A005AA4CB /* CalculateProfit.swift */; };
+		FA6BECB02D1A159E005AA4CB /* CalculateAskGivenProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BECAF2D1A159E005AA4CB /* CalculateAskGivenProfit.swift */; };
+		FA6BECB22D1A15F0005AA4CB /* CalculateAskGivenPProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BECB12D1A15F0005AA4CB /* CalculateAskGivenPProfit.swift */; };
+		FA6BECB42D1A1618005AA4CB /* CalculateNeededAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BECB32D1A1618005AA4CB /* CalculateNeededAmount.swift */; };
+		FAE1421D2D45644000832043 /* CalculateProfitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1421C2D45644000832043 /* CalculateProfitModel.swift */; };
+		FAE142232D45707500832043 /* CalcuateAskGivenProfitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE142222D45707500832043 /* CalcuateAskGivenProfitModel.swift */; };
+		FAE142252D4571C100832043 /* CalculateAskGivenPProfitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE142242D4571C100832043 /* CalculateAskGivenPProfitModel.swift */; };
+		FAE142272D45739000832043 /* CalculateNeededAmountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE142262D45739000832043 /* CalculateNeededAmountModel.swift */; };
+		FAE7E94D2D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7E94C2D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUIApp.swift */; };
+		FAE7E94F2D19DF0100FB57E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7E94E2D19DF0100FB57E6 /* ContentView.swift */; };
+		FAE7E9512D19DF0300FB57E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE7E9502D19DF0300FB57E6 /* Assets.xcassets */; };
+		FAE7E9542D19DF0300FB57E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE7E9532D19DF0300FB57E6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA6BECAD2D19F55A005AA4CB /* CalculateProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateProfit.swift; sourceTree = "<group>"; };
+		FA6BECAF2D1A159E005AA4CB /* CalculateAskGivenProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateAskGivenProfit.swift; sourceTree = "<group>"; };
+		FA6BECB12D1A15F0005AA4CB /* CalculateAskGivenPProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateAskGivenPProfit.swift; sourceTree = "<group>"; };
+		FA6BECB32D1A1618005AA4CB /* CalculateNeededAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateNeededAmount.swift; sourceTree = "<group>"; };
+		FAE1421C2D45644000832043 /* CalculateProfitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateProfitModel.swift; sourceTree = "<group>"; };
+		FAE142222D45707500832043 /* CalcuateAskGivenProfitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuateAskGivenProfitModel.swift; sourceTree = "<group>"; };
+		FAE142242D4571C100832043 /* CalculateAskGivenPProfitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateAskGivenPProfitModel.swift; sourceTree = "<group>"; };
+		FAE142262D45739000832043 /* CalculateNeededAmountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateNeededAmountModel.swift; sourceTree = "<group>"; };
+		FAE7E9492D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoProfitCalculatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7E94C2D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoProfitCalculatorSwiftUIApp.swift; sourceTree = "<group>"; };
+		FAE7E94E2D19DF0100FB57E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAE7E9502D19DF0300FB57E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE7E9532D19DF0300FB57E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE7E9462D19DF0100FB57E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE1421B2D45641E00832043 /* CalculateProfit */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BECAD2D19F55A005AA4CB /* CalculateProfit.swift */,
+				FAE1421C2D45644000832043 /* CalculateProfitModel.swift */,
+			);
+			path = CalculateProfit;
+			sourceTree = "<group>";
+		};
+		FAE1421E2D456FE100832043 /* CalculateAskGivenProfit */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BECAF2D1A159E005AA4CB /* CalculateAskGivenProfit.swift */,
+				FAE142222D45707500832043 /* CalcuateAskGivenProfitModel.swift */,
+			);
+			path = CalculateAskGivenProfit;
+			sourceTree = "<group>";
+		};
+		FAE1421F2D45700000832043 /* CalculateAskGivenPProfit */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BECB12D1A15F0005AA4CB /* CalculateAskGivenPProfit.swift */,
+				FAE142242D4571C100832043 /* CalculateAskGivenPProfitModel.swift */,
+			);
+			path = CalculateAskGivenPProfit;
+			sourceTree = "<group>";
+		};
+		FAE142202D45701600832043 /* CalculateNeededAmount */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BECB32D1A1618005AA4CB /* CalculateNeededAmount.swift */,
+				FAE142262D45739000832043 /* CalculateNeededAmountModel.swift */,
+			);
+			path = CalculateNeededAmount;
+			sourceTree = "<group>";
+		};
+		FAE7E9402D19DF0100FB57E6 = {
+			isa = PBXGroup;
+			children = (
+				FAE7E94B2D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUI */,
+				FAE7E94A2D19DF0100FB57E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE7E94A2D19DF0100FB57E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7E9492D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE7E94B2D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7E94C2D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUIApp.swift */,
+				FAE7E94E2D19DF0100FB57E6 /* ContentView.swift */,
+				FAE1421B2D45641E00832043 /* CalculateProfit */,
+				FAE1421E2D456FE100832043 /* CalculateAskGivenProfit */,
+				FAE1421F2D45700000832043 /* CalculateAskGivenPProfit */,
+				FAE142202D45701600832043 /* CalculateNeededAmount */,
+				FAE7E9502D19DF0300FB57E6 /* Assets.xcassets */,
+				FAE7E9522D19DF0300FB57E6 /* Preview Content */,
+			);
+			path = CryptoProfitCalculatorSwiftUI;
+			sourceTree = "<group>";
+		};
+		FAE7E9522D19DF0300FB57E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7E9532D19DF0300FB57E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE7E9482D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7E9572D19DF0300FB57E6 /* Build configuration list for PBXNativeTarget "CryptoProfitCalculatorSwiftUI" */;
+			buildPhases = (
+				FAE7E9452D19DF0100FB57E6 /* Sources */,
+				FAE7E9462D19DF0100FB57E6 /* Frameworks */,
+				FAE7E9472D19DF0100FB57E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoProfitCalculatorSwiftUI;
+			productName = CryptoProfitCalculatorSwiftUI;
+			productReference = FAE7E9492D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE7E9412D19DF0100FB57E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FAE7E9482D19DF0100FB57E6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FAE7E9442D19DF0100FB57E6 /* Build configuration list for PBXProject "CryptoProfitCalculatorSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE7E9402D19DF0100FB57E6;
+			productRefGroup = FAE7E94A2D19DF0100FB57E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE7E9482D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE7E9472D19DF0100FB57E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7E9542D19DF0300FB57E6 /* Preview Assets.xcassets in Resources */,
+				FAE7E9512D19DF0300FB57E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE7E9452D19DF0100FB57E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6BECAE2D19F55A005AA4CB /* CalculateProfit.swift in Sources */,
+				FAE142252D4571C100832043 /* CalculateAskGivenPProfitModel.swift in Sources */,
+				FA6BECB22D1A15F0005AA4CB /* CalculateAskGivenPProfit.swift in Sources */,
+				FAE7E94F2D19DF0100FB57E6 /* ContentView.swift in Sources */,
+				FAE1421D2D45644000832043 /* CalculateProfitModel.swift in Sources */,
+				FAE142232D45707500832043 /* CalcuateAskGivenProfitModel.swift in Sources */,
+				FA6BECB42D1A1618005AA4CB /* CalculateNeededAmount.swift in Sources */,
+				FA6BECB02D1A159E005AA4CB /* CalculateAskGivenProfit.swift in Sources */,
+				FAE142272D45739000832043 /* CalculateNeededAmountModel.swift in Sources */,
+				FAE7E94D2D19DF0100FB57E6 /* CryptoProfitCalculatorSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAE7E9552D19DF0300FB57E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE7E9562D19DF0300FB57E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE7E9582D19DF0300FB57E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoProfitCalculatorSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyptoprofitcalculator.CryptoProfitCalculatorSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE7E9592D19DF0300FB57E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoProfitCalculatorSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyptoprofitcalculator.CryptoProfitCalculatorSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE7E9442D19DF0100FB57E6 /* Build configuration list for PBXProject "CryptoProfitCalculatorSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7E9552D19DF0300FB57E6 /* Debug */,
+				FAE7E9562D19DF0300FB57E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7E9572D19DF0300FB57E6 /* Build configuration list for PBXNativeTarget "CryptoProfitCalculatorSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7E9582D19DF0300FB57E6 /* Debug */,
+				FAE7E9592D19DF0300FB57E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE7E9412D19DF0100FB57E6 /* Project object */;
+}

@@ -1,0 +1,16 @@
+//
+//  Localizable.strings
+//  CryptoProfitCalculatorSwiftUI
+//
+//  Created by Karim Bouchaane on 11/10/2025.
+//
+
+"Crypto Calculator" = "Calculateur Crypto";
+"Calculate Profit" = "Calculer le profit";
+"Ask Given Profit" = "Demander le profit donné";
+"Ask Given % Profit" = "Demander le profit en %";
+"Needed Amount" = "Montant nécessaire";
+"Settings" = "Paramètres";
+"Change Language" = "Changer la langue";
+"Share App" = "Partager l'application";
+"Rate App" = "Évaluer l'application";

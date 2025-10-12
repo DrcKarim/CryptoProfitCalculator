@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "cnat@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "cnat@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
